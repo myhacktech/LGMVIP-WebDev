@@ -10,8 +10,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gemunu+Libre:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="login.css">
+  <script src=home.js></script>
 </head>
 <style>
+a:visited,a:active,a:hover,a:link {
+	color:white;
+	text-decoration:none;
+	}
 .contact{
 position:absolute;
 top:4900px;
@@ -121,23 +126,17 @@ position:absolute;
         }
 	
 	
+	
+	
 </style>
 <body onload="myFunction()">
-<script>
-function myFunction() {
-  alert("|Welcome to Vikramaditya Travels|\n|happy journey|");
-}
-function my() {
-  var x = document.getElementById("name");
-  x.value = x.value.toUpperCase();
-}
-</script>
+
 <marquee><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <img src=limited.png style="top:100px;z-index:1;height:100px;width:200px;"></marquee>
 <img src="se.png" style="z-index:1;position:absolute;top:200px;left:900px;height:250px;width:250px;"><div class=container>
-<h1 style="color:white;font-size:50px;z-index:1;font-family: 'Ephesis', cursive;top:0px;position:relative;left:260px">Yatra Travels</h1>
-<h1 style="position:relative;left:450px;font-size:25px;color:white;z-index:1;top:30px;">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explore&nbsp;&nbsp;&nbsp;&nbsp;Blogs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</h1>
+<h1 style="color:white;font-size:50px;z-index:1;font-family: 'Ephesis', cursive;top:0px;position:relative;left:260px"><a id=home>Yatra Travels</a></h1>
+<h1 style="position:relative;left:450px;font-size:25px;color:white;z-index:1;top:30px;"><a href=#home>Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#products>Products</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#explore>Explore</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=#blog>Blogs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#contact>Contact</a></h1>
 <h1 style="font-size:50px;z-index:1;color:white;position:absolute;top:200px;left:150px;font-family: arial;">Come And </h1>
 <h1 style="font-size:50px;z-index:1;color:white;position:absolute;top:250px;left:150px;font-family: arial;">Realise Your Dreams!!! </h1>
 <h1 style="font-size:15px;z-index:1;color:white;position:absolute;top:330px;left:150px;font-family: arial;">One place to find all your destinations and hotels room bookings </h1>
@@ -161,7 +160,7 @@ function my() {
 <DIV STYLE="position:absolute;top:1190px;left:600px;width:150px;font-size:20px;text-align:center;color:purple;border:groove;border-radius:10px;border-size:3px;border-color:black;padding:20px;">Get Notified on every offer,And hotels discounts. Not only that, give refferals to yours friends,family members,and collgeues.</div>
 
 <DIV STYLE="position:absolute;top:1190px;left:1000px;width:150px;font-size:20px;text-align:center;color:purple;border:groove;border-radius:10px;border-size:3px;border-color:black;padding:20px;">Get Notified on every offer,And hotels discounts. Not only that, give refferals to yours friends,family members,and collgeues.</div>
-<div style="position:absolute;top:1470px;left:550px;font-size:45px;"><b>Check Hotels</b></div>
+<div style="position:absolute;top:1470px;left:550px;font-size:45px;"><b><a id=products>Check Hotels</a></b></div>
 <div  class=im style="left:0px;height:500px;width:330px;border:solid;border-size:1px;"><img src="h2.jpg" style="position:relative;top:0px;left:0px;height:400px;width:330px;">
 <b style="top:380px;left:50px;font-size:35px;font-family: 'Ephesis', cursive;">Hotel surya</b><br>
 <div style="left:30px;font-size:20px;align:center;top:400px;height:20px;width:100px;background-color:orange;border:groove;border-radius:5px;border-color:black;padding:8px;font-family: 'Gemunu Libre', sans-serif;"><b>BOOK NOW<img src=gift.png style="position:absolute;top:410px;right:5px;height:90px;width:90px;"></div>
@@ -206,7 +205,7 @@ function my() {
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<marquee><div style="top:2820px;font-size:35px;font-family: 'Gemunu Libre', sans-serif;"><div class=blink>Meet the Creators</div></div></marquee>
+<marquee><div style="top:2820px;font-size:35px;font-family: 'Gemunu Libre', sans-serif;"><div class=blink><a id=explore>Meet the Creators</a></div></div></marquee>
 <hr style="z-index:1;position:absolute;top:2370px;" size=6px width=1345px color=black>
 <img src="my.jpg" style="position:absolute;top:2900px;left:350px;border:double;border-radius:100px;height:150px;width:150px;">
 <img src="boy.png" style="position:absolute;top:2900px;left:650px;border:double;border-radius:100px;height:150px;width:150px;">
@@ -221,7 +220,7 @@ function my() {
 </div> </div><input type=text placeholder="Enter Your Email To Get Notfied" style="border:groove;border-color:orange;position:absolute;top:3500px;left:350px;height:50px;width:500px;"><div style="padding-top:12px;position:absolute;top:3500px;left:880px;color:orange;background-color:none;border-color:orange;border-radius:4px;width:80px;height:32px;font-family: 'Gemunu Libre', sans-serif;border:groove;border-color:orange;padding-left:13px;">SIGN IN</div>
 <img src=or.png style="background-color:orange;border-radius:50px;position:absolute;top:3600px;height:100px;left:600px;">
 <div style="position:absolute;top:3800px;left:570px;background-color:none;border:groove;border-color:orange;color:orange;font-size:35px;padding:7px;">SIGN UP</div>
-<div style="position:absolute;top:4000px;left:620px;font-family: 'Gemunu Libre', sans-serif;font-size:35px;">BLOGS</div>
+<div style="position:absolute;top:4000px;left:620px;font-family: 'Gemunu Libre', sans-serif;font-size:35px;"><a id=blog>BLOGS</a></div>
 <div style="position:absolute;top:4050px;left:200px;height:400px;width:220px;"><img src=h3.jpg style="top:0px;height:150px;width:220px;">
 <br><div style="top:260px;left:50px;width:210px;;height;100px;border-color:black;border:solid;font-size:30px;padding-top:15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Browse</div>
 </div>
@@ -261,9 +260,10 @@ function my() {
      </form>
     </div>
   </div>
+
   <div class=contact>
    <div class="main_div" style="position:absolute;left:900px;">
-    <div class="title">Contact Us</div>
+    <div class="title">  <a id =contact>Contact Us</a></div>
    
     <form>
       <div class="input_box">
@@ -286,8 +286,8 @@ function my() {
      </form>
     </div>
   </div>
-<img src=cont.png style="z-index:1;position:absolute;top:4900px;height:300px;width:300px;left:240px;"> 
-<img src=diwali.png style="z-index:1;position:fixed;top:30px;height:100px;width:100px;left:40px;"> 
+<img src=cont.png style="z-index:1;position:absolute;top:4900px;height:300px;width:300px;left:240px;"> <a href=#home>
+<img src=hom.jpg style="z-index:1;position:fixed;top:30px;height:100px;width:100px;left:40px;border-radius:50px;"> </a>
 
 <img src=diwali.png style="z-index:1;position:absolute;top:2420px;height:300px;width:300px;left:240px;"> 
 
