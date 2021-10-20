@@ -280,7 +280,7 @@ position:absolute;
       </div>
      
       <div class="input_box button">
-        <button   style="background-color:purple;color:white;height:50px;width:370px;font-size:30px;" onclick="alert('Thanks for valuable feedback')">Sen Us</button>
+        <button   style="background-color:purple;color:white;height:50px;width:370px;font-size:30px;" onclick="alert('Thanks for valuable feedback')">Send Us</button>
       </div>
      
      </form>
